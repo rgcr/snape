@@ -5,12 +5,36 @@ Handle your snippets with Severus precision.
 
 ## ✨ Features
 
-- Quick index selection (a-z, A-Z)
-- Real-time filtering with `/`
-- Cross-platform: macOS, Windows, Linux
-- File-based storage in `~/.snape/`
-- Automatic clipboard copy on selection
-- Open snippets folder from the interface
+<table>
+  <tr>
+    <td valign="top" width="60%">
+<ul>
+  <li> Quick index selection (a-z, A-Z)</li>
+  <li> Real-time filtering with <code>/</code></li>
+  <li> Cross-platform: macOS, Windows, Linux</li>
+  <li> File-based storage in <code>~/.snape/</code></li>
+  <li> Automatic clipboard copy on selection</li>
+  <li> Open snippets folder from the interface</li>
+</ul>
+</td>
+  <td valign="top" width="40%">
+  <img width="300" height="400" alt="Snape Screenshot" src="https://github.com/user-attachments/assets/ebe6905c-d7fd-4b17-bc47-58359ee6b13a" />
+  </td>
+</tr>
+</table>
+
+
+## Philosophy
+
+Snape follows the **KISS** principle — *Keep It Simple, Severus* 🧙.
+
+-  Minimal UI, instant access
+-  Zero learning curve: open, pick, done
+-  Plain text storage for easy syncing and versioning
+-  Integrates with your existing workflow, not the other way around
+-  No accounts, no cloud, no nonsense
+
+
 
 ## 🚀 Installation
 
@@ -18,14 +42,14 @@ Handle your snippets with Severus precision.
 
 Use the install script to download, build, and install Snape:
 
-  `curl -fsSL https://raw.githubusercontent.com/rgcr/snape/main/install.sh | bash`
+`curl -fsSL https://raw.githubusercontent.com/rgcr/snape/main/install.sh | bash`
 
 ```bash
 Install options:
 
-  ./install.sh           # Install to /usr/local/bin (requires sudo)
-  ./install.sh --local   # Install to ~/.local/bin (no sudo)
-  ./install.sh --help    # Show options
+./install.sh           # Install to /usr/local/bin (requires sudo)
+./install.sh --local   # Install to ~/.local/bin (no sudo)
+./install.sh --help    # Show options
 ```
 
 **Requirements**:
@@ -35,12 +59,12 @@ Install options:
 
 ### Manual Build
 ```bash
-  git clone https://github.com/rgcr/snape.git
-  cd snape
-  go build -o snape
+git clone https://github.com/rgcr/snape.git
+cd snape
+go build -o snape
 ```
 
-## 🧩 Hotkey Integration
+## Hotkey Integration
 
 Snape works best when bound to a hotkey using your favorite keybinding tool.
 
@@ -49,7 +73,7 @@ Snape works best when bound to a hotkey using your favorite keybinding tool.
 ```bash
 # In ~/.hammerspoon/init.lua:
 
-hs.hotkey.bind({"cmd", "shift"}, "s", function()
+hs.hotkey.bind({"cmd", "alt"}, "s", function()
     hs.task.new("/usr/local/bin/snape", nil, nil, {}):start()
 end)
 ```
@@ -59,7 +83,7 @@ end)
 ```
 # In ~/.config/skhd/skhdrc or ~/.skhdrc:
 
-cmd + shift - s : /usr/local/bin/snape
+cmd + alt - s : /usr/local/bin/snape
 ```
 
 ### Linux - i3wm
@@ -82,7 +106,7 @@ bindsym $mod+s exec /usr/local/bin/snape
 
 - Alfred (macOS): Create a workflow to run `/usr/local/bin/snape`
 
-## 🖥️ Usage
+## Usage
 
 Launch Snape from terminal or hotkey:
 
@@ -94,7 +118,7 @@ Launch Snape from terminal or hotkey:
   snape --help            # Show help
 ```
 
-## ⌨️ Keyboard Shortcuts
+## Keyboard Shortcuts
 
 ### Normal Mode
 - ↑↓ : Navigate
@@ -146,16 +170,16 @@ Build:
 ## 🤝 Contributing
 
 1. Fork repo
-2. Create branch: `git checkout -b feature/amazing-feature`
+2. Create branch: `git checkout -b my-feature`
 3. Commit: `git commit -m 'Add amazing feature'`
-4. Push: `git push origin feature/amazing-feature`
+4. Push: `git push origin my-feature`
 5. Open Pull Request
 
 ## License
 
 MIT License – See `LICENSE` file.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Powered by [Fyne](https://fyne.io/)
 - Inspired by the template system of AutoHotkey’s `CL3` utility
