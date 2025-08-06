@@ -68,7 +68,7 @@ go build -o snape
 
 Snape works best when bound to a hotkey using your favorite keybinding tool.
 
-### macOS - Hammerspoon
+#### macOS - Hammerspoon
 
 ```bash
 # In ~/.hammerspoon/init.lua:
@@ -78,7 +78,7 @@ hs.hotkey.bind({"cmd", "alt"}, "s", function()
 end)
 ```
 
-### macOS - skhd
+#### macOS - skhd
 
 ```
 # In ~/.config/skhd/skhdrc or ~/.skhdrc:
@@ -86,7 +86,7 @@ end)
 cmd + alt - s : /usr/local/bin/snape
 ```
 
-### Linux - i3wm
+#### Linux - i3wm
 
 ```bash
 # In ~/.i3/config:
@@ -94,7 +94,7 @@ cmd + alt - s : /usr/local/bin/snape
 bindsym $mod+s exec /usr/local/bin/snape
 ```
 
-### Windows - AutoHotkey
+#### Windows - AutoHotkey
 ```
 # In your autohotkey script
 
@@ -102,7 +102,7 @@ bindsym $mod+s exec /usr/local/bin/snape
 ^!s::Run C:\Path\to\snape.exe
 ```
 
-### Others
+#### Others
 
 - Alfred (macOS): Create a workflow to run `/usr/local/bin/snape`
 
@@ -135,7 +135,7 @@ Launch Snape from terminal or hotkey:
 - Enter : Select snippet
 - Esc : Exit filter mode
 
-## 📂 Snippets Directory
+##  Snippets Directory
 
 Snippets live in: `~/.snape/`
 
@@ -156,7 +156,7 @@ Example:
 - `greeting.txt` – friendly greeting message
 - `hello-world.go` – Hello World in `go`
 
-## 🔨 Building
+## Building
 
 Requirements:
 
@@ -167,7 +167,7 @@ Build:
 
    `go build -o snape`
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork repo
 2. Create branch: `git checkout -b my-feature`
@@ -175,9 +175,6 @@ Build:
 4. Push: `git push origin my-feature`
 5. Open Pull Request
 
-## License
-
-MIT License – See `LICENSE` file.
 
 ## Acknowledgments
 
