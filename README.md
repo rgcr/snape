@@ -3,7 +3,7 @@
 
 Handle your snippets with Severus precision.
 
-## ✨ Features
+## Features
 
 <table>
   <tr>
@@ -36,7 +36,7 @@ Snape follows the **KISS** principle — *Keep It Simple, Severus* 🧙.
 
 
 
-## 🚀 Installation
+## Installation
 
 ### Quick Install (Recommended)
 
