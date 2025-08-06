@@ -24,7 +24,7 @@ Handle your snippets with Severus precision.
 </table>
 
 
-## Philosophy
+## 📖 Philosophy
 
 Snape follows the **KISS** principle — *Keep It Simple, Severus* 🧙.
 
