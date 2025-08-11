@@ -38,7 +38,11 @@ Snape follows the **KISS** principle — *Keep It Simple, Severus* 🧙.
 
 ## Installation
 
-### Quick Install (Recommended)
+### Using Homebrew
+
+`brew install rgcr/formulae/snape`
+
+### Using the Install script
 
 Use the install script to download, build, and install Snape:
 
@@ -67,6 +71,7 @@ go build -o snape
 ## Hotkey Integration
 
 Snape works best when bound to a hotkey using your favorite keybinding tool.
+> Change the path to where `snape` is installed.
 
 #### macOS - Hammerspoon
 
@@ -156,16 +161,6 @@ Example:
 - `greeting.txt` – friendly greeting message
 - `hello-world.go` – Hello World in `go`
 
-## Building
-
-Requirements:
-
-- `Go` `1.19+`
-- `Fyne` and dependencies
-
-Build:
-
-   `go build -o snape`
 
 ## Contributing
 
@@ -180,4 +175,3 @@ Build:
 
 - Powered by [Fyne](https://fyne.io/)
 - Inspired by the template system of AutoHotkey’s `CL3` utility
-- Named after Severus Snape for his precision and discipline
