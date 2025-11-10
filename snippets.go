@@ -53,6 +53,11 @@ func (sm *SnippetManager) LoadSnippets() error {
 			return nil
 		}
 
+		// Skip hidden files (files starting with a dot)
+		if strings.HasPrefix(d.Name(), ".") {
+			return nil
+		}
+
 		content, err := os.ReadFile(path)
 		if err != nil {
 			return err
