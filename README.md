@@ -161,17 +161,17 @@ Example:
 - `greeting.txt` – friendly greeting message
 - `hello-world.go` – Hello World in `go`
 
-
-## Contributing
-
-1. Fork repo
-2. Create branch: `git checkout -b my-feature`
-3. Commit: `git commit -m 'Add amazing feature'`
-4. Push: `git push origin my-feature`
-5. Open Pull Request
-
-
 ## Acknowledgments
 
 - Powered by [Fyne](https://fyne.io/)
 - Inspired by the template system of AutoHotkey’s `CL3` utility
+
+## Contributing
+
+We ❤️ contributions!
+
+1. Fork the repo
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push the branch: `git push origin my-new-feature`
+5. Open a Pull Request 🚀
