@@ -40,7 +40,7 @@ brew install --cask snape
 
 ### Or Download Release
 
-1. Download `Snape-x.x.x-macos.dmg` from [Releases](https://github.com/rgcr/snape/releases)
+1. Download [Snape-2.0.0-macos.dmg](https://github.com/rgcr/snape/releases/download/v2.0.0/Snape-2.0.0-macos.dmg) from `Releases`
 2. Open the DMG and drag `Snape.app` to `/Applications`
 3. First launch: Right-click → Open (to bypass Gatekeeper)
 
