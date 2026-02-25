@@ -40,12 +40,11 @@ brew tap rgcr/formulae
 brew install --cask snape
 ```
 
-### Or Download Release
+### Or Download Latest Release
 
 1. Download [Snape-2.0.0-macos.dmg](https://github.com/rgcr/snape/releases/download/v2.0.0/Snape-2.0.0-macos.dmg) from `Releases`
 2. Open the DMG and drag `Snape.app` to `/Applications`
-3. First launch: Right-click → Open (to bypass Gatekeeper)
-
+3. Bypass Gatekeeper `xattr -cr /Applications/Snape.app`
 
 ## Hotkey Integration
 
