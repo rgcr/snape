@@ -2,6 +2,8 @@
 
 Handle your snippets with Severus precision.
 
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/3f641192-fc51-417f-bd1f-095780ad96be" />
+
 
 ## Features
 
